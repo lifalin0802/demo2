@@ -1,0 +1,12 @@
+apiVersion: demo.example.org/v1
+kind: Democrd
+metadata:
+  labels:
+    app.kubernetes.io/name: democrd
+    app.kubernetes.io/instance: democrd-sample
+    app.kubernetes.io/part-of: operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: operator
+  name: democrd-sample
+spec:
+  # TODO(user): Add fields here
